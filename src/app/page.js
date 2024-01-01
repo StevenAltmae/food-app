@@ -41,11 +41,32 @@ function App() {
           <h1 className="text-2xl">New Dishes</h1>
           <button className="flex justify-center gap-3 items-center">All<Image width="13" height="10" alt="" src="/images/red_arrow.svg"></Image></button>
           </div>
+          <div className="flex justify-center">
+            <div id="burger" className="bg-[#252830] rounded-xl w-5/12 h-80 flex text-base mx-2">
+              <Image width="160" height="160" alt="" src="/images/unsplash_TqOEGdRNowY.svg"></Image>
+              <div className="">
+                <p>Fried Shrimp</p>
+                <Image width="10" height="10" alt="" src="/images/star.svg"></Image>
+
+              </div>
+            </div>
+            <div id="burger" className="bg-[#252830] rounded-xl w-5/12 h-80 flex justify-around items-center text-base mx-2">
+              <Image width="160" height="160" alt="" src="/images/Frame 48095716.svg"></Image>
+              <div>
+                <p>Fried Shrimp</p>
+                <Image width="10" height="10" alt="" src="/images/star.svg"></Image>
+
+              </div>
+            </div>
+          </div>
       </div>
 
       
-      <footer>
-        
+      <footer className="flex justify-around">
+      <Image width="35" height="35" alt="" src="/images/cooking.svg"></Image>
+      <Image width="35" height="35" alt="" src="/images/category.svg"></Image>
+      <Image width="35" height="35" alt="" src="/images/heart.svg"></Image>
+      <Image width="35" height="35" alt="" src="/images/buy.svg"></Image>
       </footer>
     </main>
     )
